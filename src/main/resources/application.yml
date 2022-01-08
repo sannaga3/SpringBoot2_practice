@@ -1,0 +1,8 @@
+server.max-http-header-size:  81920   #  Request header is too large のエラーが出た時の対処法　　　https://zenn.dev/yakumo/articles/
+spring:
+  datasource:
+    url: jdbc:h2:mem:test
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  h2.console.enabled: true
